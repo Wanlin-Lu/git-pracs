@@ -17,3 +17,5 @@
 `git show <commit>`	查看提交的详细记录
 
 `git mv <oldfilename> <newfilename>`	修改，移动文件的名称或目录的名称
+
+`git rm <file>`	删除文件
