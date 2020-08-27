@@ -37,3 +37,5 @@
 `git branch -m <oldbranch> <newbranch>`	修改分支名称
 
 `git checkout -b <newbranch>` 创建并切换到新建分支
+
+`git checkout -b <newbranch> <originbranch>` 从origin分支上分出newbranch，并切换
