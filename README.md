@@ -19,3 +19,5 @@
 `git mv <oldfilename> <newfilename>`	修改，移动文件的名称或目录的名称
 
 `git rm <file>`	删除文件
+
+`git clean`	删除非管理对象的文件
