@@ -32,5 +32,5 @@
 
 `git branch " "|-a`	查看分支
 
-
+`git branch <branchname>`	创建分支
 
