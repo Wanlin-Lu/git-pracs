@@ -28,3 +28,21 @@
 
 `git add -u` 	只添加已经提交过的文件到索引
 
+
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
+<--------Will confilict---------->
+
