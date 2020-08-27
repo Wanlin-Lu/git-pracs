@@ -45,3 +45,5 @@
 `git merge <branch>`	合并分支
 
 `git merge --no-ff <branch>`	非fast-forward型合并提交
+
+`git branch -d <branch>`	删除分支
