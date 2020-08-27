@@ -6,3 +6,5 @@
 
 `git add` 	把变更录入索引
 
+`git commit -m "<message>"`	记录索引的状态
+
