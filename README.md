@@ -42,7 +42,7 @@
 
 `git checkout <branch>`	切换分支
 
-`git merge <branch>`	合并分支
+`git merge <branch>`	合并分支，先checkout到主分支，然后merge新分支内容
 
 `git merge --no-ff <branch>`	非fast-forward型合并提交
 
