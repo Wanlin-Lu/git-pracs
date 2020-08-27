@@ -13,3 +13,5 @@
 `git diff`	显示差异
 
 `git log`	查看记录
+
+`git show <commit>`	查看提交的详细记录
