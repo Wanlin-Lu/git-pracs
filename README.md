@@ -41,3 +41,5 @@
 `git checkout -b <newbranch> <originbranch>` 从origin分支上分出newbranch，并切换
 
 `git checkout <branch>`	切换分支
+
+`git merge <branch>`	合并分支
