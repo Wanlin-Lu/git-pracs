@@ -34,3 +34,4 @@
 
 `git branch <branchname>`	创建分支
 
+`git branch -m <oldbranch> <newbranch>`	修改分支名称
