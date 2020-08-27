@@ -10,3 +10,4 @@
 
 `git status`	查看状态
 
+`git diff`	显示差异
