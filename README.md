@@ -20,4 +20,4 @@
 
 `git rm <file>`	删除文件
 
-`git clean`	删除非管理对象的文件
+`git clean -n|-f|-x`	删除非管理对象的文件
