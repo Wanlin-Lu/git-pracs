@@ -28,3 +28,22 @@
 
 `git add -u` 	只添加已经提交过的文件到索引
 
+## 操作分支
+
+`git branch " "|-a`	查看分支
+
+`git branch <branchname>`	创建分支
+
+`git branch -m <oldbranch> <newbranch>`	修改分支名称
+
+`git checkout -b <newbranch>` 创建并切换到新建分支
+
+`git checkout -b <newbranch> <originbranch>` 从origin分支上分出newbranch，并切换
+
+`git checkout <branch>`	切换分支
+
+`git merge <branch>`	合并分支
+
+`git merge --no-ff <branch>`	非fast-forward型合并提交
+
+`git branch -d <branch>`	删除分支
