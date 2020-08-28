@@ -61,3 +61,5 @@
 `git tag -n`	查看标签列表，并显示标签的注解
 
 `git tag -d <tagname>`	删除标签tagname
+
+`git push origin <tagname>`	推送标签到远程仓库
