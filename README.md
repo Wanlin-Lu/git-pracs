@@ -67,3 +67,5 @@
 `git push origin --tags`	一次性推送所有标签到远程仓库
 
 `git tag -a <tagname> <commitId>`	为特定Id提交打上标签
+
+`git show <tagname>`	查看本地某个标签的信息
