@@ -47,3 +47,7 @@
 `git merge --no-ff <branch>`	非fast-forward型合并提交
 
 `git branch -d <branch>`	删除分支
+
+## 操作标签
+
+`git tag <tagname>`	建立标签
