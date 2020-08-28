@@ -63,3 +63,5 @@
 `git tag -d <tagname>`	删除标签tagname
 
 `git push origin <tagname>`	推送标签到远程仓库
+
+`git push origin --tags`	一次性推送所有标签到远程仓库
