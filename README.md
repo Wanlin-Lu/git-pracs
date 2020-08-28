@@ -55,3 +55,5 @@
 `git tag -a <tagname>`	建立含批注的标签：vim输入
 
 `git tag -am "<批注内容>" <tagname>`	建立含批注的标签：直接输入
+
+`git tag`	查看标签列表
