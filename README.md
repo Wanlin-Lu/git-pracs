@@ -51,3 +51,5 @@
 ## 操作标签
 
 `git tag <tagname>`	建立标签
+
+`git tag -a <tagname>`	建立含批注的标签：vim输入
