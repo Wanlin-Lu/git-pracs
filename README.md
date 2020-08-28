@@ -59,3 +59,5 @@
 `git tag`	查看标签列表
 
 `git tag -n`	查看标签列表，并显示标签的注解
+
+`git tag -d <tagname>`	删除标签tagname
