@@ -47,3 +47,25 @@
 `git merge --no-ff <branch>`	非fast-forward型合并提交
 
 `git branch -d <branch>`	删除分支
+
+## 操作标签
+
+`git tag <tagname>`	建立标签
+
+`git tag -a <tagname>`	建立含批注的标签：vim输入
+
+`git tag -am "<批注内容>" <tagname>`	建立含批注的标签：直接输入
+
+`git tag`	查看标签列表
+
+`git tag -n`	查看标签列表，并显示标签的注解
+
+`git tag -d <tagname>`	删除标签tagname
+
+`git push origin <tagname>`	推送标签到远程仓库
+
+`git push origin --tags`	一次性推送所有标签到远程仓库
+
+`git tag -a <tagname> <commitId>`	为特定Id提交打上标签
+
+`git show <tagname>`	查看本地某个标签的信息
