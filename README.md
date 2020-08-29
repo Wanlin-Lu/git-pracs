@@ -90,3 +90,14 @@
 2. 然后`git commit --amend` 执行提交。
 3. 最后`git rebase --continue` 完成`git rebase` 操作
 
+
+
+`git rebase -i <commit>`	只修改过去提交记录的注解
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
+
+-->
+
+1. 直接`git commit --amend` 执行提交。
+2. 最后`git rebase --continue` 完成`git rebase` 操作
+
