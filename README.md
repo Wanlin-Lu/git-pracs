@@ -46,6 +46,8 @@
 
 `git merge --no-ff <branch>`	非fast-forward型合并提交
 
+`git merge --squash <branch>`	汇合branch上所有提交，并merge到现在分支
+
 `git branch -d <branch>`	删除分支
 
 ## 操作标签
@@ -69,3 +71,78 @@
 `git tag -a <tagname> <commitId>`	为特定Id提交打上标签
 
 `git show <tagname>`	查看本地某个标签的信息
+
+## 操作提交记录
+
+`git commit --amend`	修改最近的提交记录
+
+`git commit --amend`	只修改最近的提交记录的注解，没有向索引add更改时
+
+`注：上一条(sha-6e8cb3) 只有一条记录，但是由两次add和三次commit形成`
+
+
+
+`git rebase -i <commit>`	修改过去的提交记录
+
+`这里的commit为要修改commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
+
+-->
+
+1. 编辑已经指定"edit"的文件，保存文件，`git add .`
+2. 然后`git commit --amend` 执行提交。
+3. 最后`git rebase --continue` 完成`git rebase` 操作
+
+
+
+`git rebase -i <commit>`	只修改过去提交记录的注解
+
+`这里的commit为要修改commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
+
+-->
+
+1. 直接`git commit --amend` 执行提交。
+2. 最后`git rebase --continue` 完成`git rebase` 操作
+
+
+
+`git rebase -i <commit>`	合并前面的提交，
+
+`这里的commit为要汇合commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “squash” ，保存退出
+
+-->vim 编辑合并后的新的提交message，完成合并。（&will be squashed to one)
+
+
+
+`git rebase --abort`	上面的rebase操作要中途退出rebase的命令
+
+
+
+`git reflog`	查看HEAD的移动历史
+
+`git reflog <ref>`	查看分支前面的移动历史记录，ref:分支名称
+
+
+
+`git revert HEAD`	取消最近一次提交
+
+
+
+`git reset --hard HEAD~`	放弃最近一次提交，移动HEAD到倒数第二commit
+
+`git reset --hard <commit>`	放弃最近的提交，移动HEAD到commit
+
+`git reset --hard ORIG_HEAD`	取消最近的reset
+
+
+
+`git cherry-pick <commit>`	摘樱桃，把特定commit提交复制到当前分支
+
+
+
+`git log --grep <pattern>`	查找包含特定注解的提交	
