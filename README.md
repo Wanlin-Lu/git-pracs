@@ -46,6 +46,8 @@
 
 `git merge --no-ff <branch>`	非fast-forward型合并提交
 
+`git merge --squash <branch>`	汇合branch上所有提交，并merge到现在分支
+
 `git branch -d <branch>`	删除分支
 
 ## 操作标签
