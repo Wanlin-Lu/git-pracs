@@ -136,3 +136,7 @@
 `git reset --hard <commit>`	放弃最近的提交，移动HEAD到commit
 
 `git reset --hard ORIG_HEAD`	取消最近的reset
+
+
+
+`git cherry-pick <commit>`	摘樱桃，把特定commit提交复制到当前分支
