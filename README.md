@@ -69,3 +69,10 @@
 `git tag -a <tagname> <commitId>`	为特定Id提交打上标签
 
 `git show <tagname>`	查看本地某个标签的信息
+
+## 操作提交记录
+
+`git commit --amend`	修改最近的提交记录
+
+`git commit --amend`	只修改最近的提交记录的注解，没有向索引add更改时
+
