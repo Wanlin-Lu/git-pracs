@@ -76,3 +76,17 @@
 
 `git commit --amend`	只修改最近的提交记录的注解，没有向索引add更改时
 
+`注：上一条(sha-6e8cb3) 只有一条记录，但是由两次add和三次commit形成`
+
+
+
+`git rebase -i <commit>`	修改过去的提交记录
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
+
+-->
+
+1. 编辑已经指定"edit"的文件，保存文件，`git add .`
+2. 然后`git commit --amend` 执行提交。
+3. 最后`git rebase --continue` 完成`git rebase` 操作
+
