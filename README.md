@@ -140,3 +140,7 @@
 
 
 `git cherry-pick <commit>`	摘樱桃，把特定commit提交复制到当前分支
+
+
+
+`git log --grep <pattern>`	查找包含特定注解的提交	
