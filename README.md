@@ -82,6 +82,8 @@
 
 `git rebase -i <commit>`	修改过去的提交记录
 
+`这里的commit为要修改commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
 -->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
 
 -->
@@ -94,10 +96,22 @@
 
 `git rebase -i <commit>`	只修改过去提交记录的注解
 
+`这里的commit为要修改commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
 -->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “edit” ，保存退出
 
 -->
 
 1. 直接`git commit --amend` 执行提交。
 2. 最后`git rebase --continue` 完成`git rebase` 操作
+
+
+
+`git rebase -i <commit>`	合并前面的提交，
+
+`这里的commit为要汇合commit前面一个commit记录, 也可以用HEAD~~,HEAD~2`
+
+-->在显示的提交记录列表中，将要修改提交行首的 ”pick" 改为 “squash” ，保存退出
+
+-->vim 编辑合并后的新的提交message，完成合并。（&will be squashed to one)
 
