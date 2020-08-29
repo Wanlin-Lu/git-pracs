@@ -115,3 +115,6 @@
 
 -->vim 编辑合并后的新的提交message，完成合并。（&will be squashed to one)
 
+
+
+`git rebase --abort`	上面的rebase操作要中途退出rebase的命令
