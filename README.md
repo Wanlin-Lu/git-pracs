@@ -118,3 +118,7 @@
 
 
 `git rebase --abort`	上面的rebase操作要中途退出rebase的命令
+
+
+
+`git reflog`	查看HEAD的移动历史
