@@ -122,3 +122,5 @@
 
 
 `git reflog`	查看HEAD的移动历史
+
+`git reflog <ref>`	查看分支前面的移动历史记录，ref:分支名称
