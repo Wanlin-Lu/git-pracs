@@ -127,6 +127,10 @@
 
 
 
+`git revert HEAD`	取消最近一次提交
+
+
+
 `git reset --hard HEAD~`	放弃最近一次提交，移动HEAD到倒数第二commit
 
 `git reset --hard <commit>`	放弃最近的提交，移动HEAD到commit
