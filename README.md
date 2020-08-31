@@ -28,6 +28,8 @@
 
 `git add -u` 	只添加已经提交过的文件到索引
 
+
+
 ## 操作分支
 
 `git branch " "|-a`	查看分支
@@ -50,6 +52,8 @@
 
 `git branch -d <branch>`	删除分支
 
+
+
 ## 操作标签
 
 `git tag <tagname>`	建立标签
@@ -71,6 +75,8 @@
 `git tag -a <tagname> <commitId>`	为特定Id提交打上标签
 
 `git show <tagname>`	查看本地某个标签的信息
+
+
 
 ## 操作提交记录
 
@@ -146,3 +152,33 @@
 
 
 `git log --grep <pattern>`	查找包含特定注解的提交	
+
+
+
+## 远端操作
+
+`git clone <url>`	复制现有的远程数据库，会自动设定remote，在push/fetch/pull时，省略url
+
+`git remote add <name> <url>`	复制现有的远程数据库
+
+`git remote |-v`	显示远程数据库列表
+
+`git checkout <branch-name-of-remote>`	在远程数据库的分支创建本地数据库的分支 ?
+
+`git push <repository> <refspec-branchname>` 在远程数据库创建分支／反映修改内容到分支 ?
+
+`git fetch <repository> <refspec-branchname>`	查看远程数据库分支的修改内容
+
+`git pull <repository> <refspec-branchname>`	读取远程数据库的分支的修改内容
+
+`git push --delete <repository> <branchname>`	删除远程数据库的分支
+
+`git push <repository> <tagname>`	建立远程数据库的标签
+
+`git push <repository> --tags`	把本地数据库里所有的标签添加到远程数据库
+
+`git push --delete <repository> <tagname>`	删除远程数据库的标签
+
+`git remote rename <old> <new>`	修改已注册的远程数据库
+
+`git remote set-url <name> <newurl>`	修改已注册的远程数据库的电子邮件地址  ?
