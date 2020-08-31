@@ -158,3 +158,5 @@
 `git remote |-v`	显示远程数据库列表
 
 `git checkout <branch-name-of-remote>`	在远程数据库的分支创建本地数据库的分支
+
+`git push <repository> <refspec-branchname>` 在远程数据库创建分支／反映修改内容到分支
