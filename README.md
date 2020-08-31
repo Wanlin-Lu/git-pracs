@@ -156,3 +156,5 @@
 `git remote add <name> <url>`	复制现有的远程数据库
 
 `git remote |-v`	显示远程数据库列表
+
+`git checkout <branch-name-of-remote>`	在远程数据库的分支创建本地数据库的分支
