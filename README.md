@@ -164,3 +164,5 @@
 `git fetch <repository> <refspec-branchname>`	查看远程数据库分支的修改内容
 
 `git pull <repository> <refspec-branchname>`	读取远程数据库的分支的修改内容
+
+`git push --delete <repository> <branchname>`	删除远程数据库的分支
