@@ -153,3 +153,4 @@
 
 `git clone <url>`	复制现有的远程数据库，会自动设定remote，在push/fetch/pull时，省略url
 
+`git remote add <name> <url>`	复制现有的远程数据库
