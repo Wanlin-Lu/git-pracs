@@ -166,3 +166,8 @@
 `git pull <repository> <refspec-branchname>`	读取远程数据库的分支的修改内容
 
 `git push --delete <repository> <branchname>`	删除远程数据库的分支
+
+`git push <repository> <tagname>`	建立远程数据库的标签
+
+`git push <repository> --tags`	把本地数据库里所有的标签添加到远程数据库
+
