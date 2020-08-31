@@ -157,9 +157,9 @@
 
 `git remote |-v`	显示远程数据库列表
 
-`git checkout <branch-name-of-remote>`	在远程数据库的分支创建本地数据库的分支
+`git checkout <branch-name-of-remote>`	在远程数据库的分支创建本地数据库的分支 ?
 
-`git push <repository> <refspec-branchname>` 在远程数据库创建分支／反映修改内容到分支
+`git push <repository> <refspec-branchname>` 在远程数据库创建分支／反映修改内容到分支 ?
 
 `git fetch <repository> <refspec-branchname>`	查看远程数据库分支的修改内容
 
@@ -175,4 +175,4 @@
 
 `git remote rename <old> <new>`	修改已注册的远程数据库
 
-`git remote set-url <name> <newurl>`	修改已注册的远程数据库的电子邮件地址
+`git remote set-url <name> <newurl>`	修改已注册的远程数据库的电子邮件地址  ?
