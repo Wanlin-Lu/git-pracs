@@ -28,6 +28,8 @@
 
 `git add -u` 	只添加已经提交过的文件到索引
 
+
+
 ## 操作分支
 
 `git branch " "|-a`	查看分支
@@ -50,6 +52,8 @@
 
 `git branch -d <branch>`	删除分支
 
+
+
 ## 操作标签
 
 `git tag <tagname>`	建立标签
@@ -71,6 +75,8 @@
 `git tag -a <tagname> <commitId>`	为特定Id提交打上标签
 
 `git show <tagname>`	查看本地某个标签的信息
+
+
 
 ## 操作提交记录
 
