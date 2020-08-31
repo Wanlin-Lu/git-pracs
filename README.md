@@ -174,3 +174,5 @@
 `git push --delete <repository> <tagname>`	删除远程数据库的标签
 
 `git remote rename <old> <new>`	修改已注册的远程数据库
+
+`git remote set-url <name> <newurl>`	修改已注册的远程数据库的电子邮件地址
