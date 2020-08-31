@@ -171,3 +171,5 @@
 
 `git push <repository> --tags`	把本地数据库里所有的标签添加到远程数据库
 
+`git push --delete <repository> <tagname>`	删除远程数据库的标签
+
