@@ -146,3 +146,10 @@
 
 
 `git log --grep <pattern>`	查找包含特定注解的提交	
+
+
+
+## 远端操作
+
+`git clone <url>`	复制现有的远程数据库，会自动设定remote，在push/fetch/pull时，省略url
+
