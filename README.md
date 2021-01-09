@@ -6,6 +6,8 @@
 
 `git add` 	把变更录入索引
 
+`git add -u` 	只添加已经提交过的文件到索引
+
 `git commit -m "<message>"`	记录索引的状态
 
 `git status`	查看状态
@@ -25,8 +27,6 @@
 `git checkout -- <file>`	还原正在手头上修改，还没被添加到索引里的文件
 
 `git reset HEAD -- <file>`	删除已添加到索引的文件 ?? didn't work
-
-`git add -u` 	只添加已经提交过的文件到索引
 
 
 
